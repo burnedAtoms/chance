@@ -1,0 +1,165 @@
+
+/***************** Main Containers Styles ******************/
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Merriweather, serif;
+}
+.headerDiv{
+    position: relative;
+    background-color:bisque;
+    padding-top: 100px;
+}
+.middle-container{
+    position: relative;
+    padding: 5%;
+    background-color:tan;
+}
+.bottom-container{
+    text-align: center;
+    position: relative;
+    padding: 1%;
+    background-color: rgb(125, 108, 85);
+}
+
+/***************** Div Styles ******************/
+.skill-row{
+    margin: 6.25rem auto;
+    text-align: left;
+    line-height: 2;
+    width:50%;
+}
+
+/***************** Heading Styles ******************/
+
+h1{
+    color: #b42222;
+    display: inline;
+    font-family: Parisienne,cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin:50px auto 0  auto;
+    width: 10%;
+}
+h2{
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #b22222;
+    margin: 1em;
+    padding-bottom: 10px;
+}
+h3{
+    font-family:Montserrat;
+    color: #794420;
+}
+
+.personal-title{
+    font-family: Montserrat;
+    font-size: 1.5625rem;
+    font-weight: normal;
+    color: #b22222;
+    margin: 1em;
+}
+
+
+/***************** Anchor Tag Styles ******************/
+a{
+    font-family: Montserrat;
+    text-decoration: none;
+}
+.footer-link{
+    font-family: Montserrat;
+    margin: 0 1.25rem 1.25rem 2rem;
+    color:rgba(69, 69, 69, 0.384);
+    text-decoration:underline;
+}
+.footer-link:hover{
+    color:#cec4b6;
+}
+
+/***************** Paragraph Styles ******************/
+.closed-caption{
+    font-size: 0.625rem;
+    padding: 1.25rem 0;
+    color: tan;
+}
+.contact-description{
+    width: 40%;
+    margin: 2rem auto;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+p{
+    color:rgb(126, 126, 126);
+    font-size: 0.8rem;
+    line-height: 2;
+    width: 100%;
+}
+
+/***************** Image Styles ******************/
+.cloud_img1{
+    position: absolute;
+    right: 200px;
+    top:2rem;
+}
+.cloud_img2{
+    position: absolute;
+    bottom: 300px;
+    left: 7.5rem;
+}
+.skillDev{
+    border-radius:100%;
+    float: left;
+    margin-right: 30px;
+    width:25%;
+    height: 10%;
+}
+.motocycle{
+    background-color:rgb(171, 92, 92);
+    padding: 28px;
+    border-radius: 100%;
+    width:15%;
+    height: 25%;
+    float: right;
+    margin-left:30px;
+}
+.mountain{
+    position: relative;
+    top: 10px;
+}
+/***************** Hrizontal Rule Styles ******************/
+hr {
+    
+    border-style: none;
+    background-color: transparent;
+    border-color:brown;
+    border-top-style:double;
+    border-width: 4px;
+    height: 0px;
+    width: 2%;
+    
+}
+
+
+
+.buttonClass {
+    font-family:Montserrat;
+    padding:0.625rem 1.5rem; 
+    border-width:1px;
+    color:#ffffff;
+    border-color:#d83526;
+    font-weight:bold;
+    border-radius: 10px;
+    box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+    text-shadow:inset 0px 1px 0px #b23e35;
+    background:linear-gradient(rgba(188, 143, 143, 1), rgba(178, 34, 34, 1));
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(rgba(178, 34, 34, 1), rgba(188, 143, 143, 1));
+  }
+                
+                
