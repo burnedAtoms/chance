@@ -21,6 +21,18 @@ body{
     padding: 1%;
     background-color: rgb(125, 108, 85);
 }
+.carousel-container{
+    background-color:bisque;
+    padding: 10% 30%;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #794420;
+}
 
 /***************** Div Styles ******************/
 .skill-row{
